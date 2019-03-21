@@ -1,6 +1,6 @@
 import {LitElement, html, css} from 'lit-element';
 
-class TextInput extends LitElement {
+class SearchArea extends LitElement {
     
     static get properties(){
         return {
@@ -66,4 +66,4 @@ class TextInput extends LitElement {
     }
 }
 
-customElements.define('text-input', TextInput);
+customElements.define('search-area', SearchArea);
